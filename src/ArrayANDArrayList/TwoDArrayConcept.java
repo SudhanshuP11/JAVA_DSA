@@ -9,7 +9,9 @@ public class TwoDArrayConcept {
         System.out.print("Enter the no. of row and column: ");
         int n = i.nextInt(); int m = i.nextInt();
         int[][] arr = new int[n][m];
+
         System.out.println("Enter element");
+
         for (int j = 0; j < arr.length; j++) {
             for (int k = 0; k < arr[j].length; k++) {
                 arr[j][k] = i.nextInt();
